@@ -1,9 +1,7 @@
 function Experience() {
   return (
-    <section className="min-h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold">
-        Experience Section
-      </h1>
+    <section id="experience" className="min-h-screen flex items-center justify-center">
+      <h1 className="text-4xl font-bold">Experience</h1>
     </section>
   );
 }
