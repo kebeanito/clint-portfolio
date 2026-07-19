@@ -36,8 +36,7 @@ function About() {
           </h2>
 
           <p className="text-slate-400 text-lg leading-8">
-            I'm <span className="text-white font-semibold">Clint Kevin Diesta</span>,
-            a fresh graduate with a Bachelor of Science in Information Technology.
+            A fresh graduate holding a degree of Bachelor of Science in Information Technology.
 
             <br /><br />
 
