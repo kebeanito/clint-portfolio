@@ -13,106 +13,7 @@ body {
   background-color: #0f172a;
   color: #f8fafc;
 }
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
 
-  50% {
-    transform: translateY(-12px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
-}
-
-.animate-float {
-  animation: float 5s ease-in-out infinite;
-}
-
-@keyframes pulseGlow {
-  0% {
-    transform: scale(1);
-    opacity: .25;
-  }
-
-  50% {
-    transform: scale(1.12);
-    opacity: .45;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: .25;
-  }
-}
-
-.animate-pulse-glow {
-  animation: pulseGlow 4s ease-in-out infinite;
-}
-@keyframes spinSlow {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-spin-slow {
-  animation: spinSlow 12s linear infinite;
-}
-/* Orbit Ring */
-
-.orbit-ring {
-  position: absolute;
-  inset: -25px;
-  border-radius: 9999px;
-  animation: orbit 18s linear infinite;
-}
-
-.orbit-dot {
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  background: #38bdf8;
-  border-radius: 9999px;
-  box-shadow: 0 0 20px #38bdf8;
-}
-
-.orbit-dot:nth-child(1) {
-  top: 0;
-  left: 50%;
-}
-
-.orbit-dot:nth-child(2) {
-  right: 0;
-  top: 50%;
-}
-
-.orbit-dot:nth-child(3) {
-  bottom: 0;
-  left: 50%;
-}
-
-.orbit-dot:nth-child(4) {
-  left: 0;
-  top: 50%;
-}
-
-@keyframes orbit {
-
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-
-}
 .hero-grid {
   background-image:
     linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
@@ -121,4 +22,25 @@ body {
   background-size: 40px 40px;
 
   mask-image: radial-gradient(circle, white 20%, transparent 90%);
+}
+
+::selection {
+  background: #22d3ee;
+  color: #0f172a;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22d3ee;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #06b6d4;
 }

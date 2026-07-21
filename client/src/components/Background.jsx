@@ -1,6 +1,17 @@
 import { motion } from "framer-motion";
+import { useMemo } from "react";
 
 function Background() {
+
+    const stars = useMemo(() => Array.from({ length: 25 }, () => ({
+      left: `${Math.random() * 100}%`,
+      top: `${Math.random() * 100}%`,
+      duration: 2 + Math.random() * 4,
+      delay: Math.random() * 5,
+    })),
+  []
+);
+
   return (
     <div className="absolute inset-0 overflow-hidden -z-10">
 
@@ -48,22 +59,22 @@ function Background() {
         w-96 h-96 rounded-full
         bg-indigo-500/10 blur-[150px]"
       />
-      {Array.from({ length: 25 }).map((_, i) => (
-  <motion.span
-    key={i}
-    className="absolute w-1 h-1 rounded-full bg-white"
-    style={{
-      left: `${Math.random() * 100}%`,
-      top: `${Math.random() * 100}%`,
+      {stars.map((star, i) => (
+      <motion.span
+      key={i}
+      className="absolute w-1 h-1 rounded-full bg-white"
+      style={{
+      left: star.left,
+      top: star.top,
     }}
-    animate={{
+      animate={{
       opacity: [0.2, 1, 0.2],
       scale: [1, 1.5, 1],
     }}
-    transition={{
-      duration: 2 + Math.random() * 4,
+      transition={{
+      duration: star.duration,
       repeat: Infinity,
-      delay: Math.random() * 5,
+      delay: star.delay,
     }}
   />
 ))}
