@@ -1,4 +1,5 @@
 import SectionTitle from "../components/SectionTitle";
+import TimelineItem from "../components/TimeLineItem";
 import { experiences } from "../data/experience";
 
 function Experience() {
