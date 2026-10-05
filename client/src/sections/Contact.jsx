@@ -2,7 +2,6 @@ import SectionTitle from "../components/SectionTitle";
 import ContactCard from "../components/ContactCard";
 import { contacts } from "../data/contact";
 import resume from "../assets/resume/Clint-Kevin-Diesta-Resume.pdf";
-
 function Contact() {
   return (
     <section

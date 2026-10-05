@@ -49,7 +49,7 @@ Build for production:
 npm run build
 📬 Contact
 Email: clintkevin.diesta@gmail.com
-LinkedIn: https://www.linkedin.com/in/clint-kevin-diesta/
+LinkedIn: https://www.linkedin.com/in/clint-kevin-diesta-0244b43b5/
 GitHub: https://github.com/kebeanito
 
 Thank you for visiting my portfolio! If you have any questions or would like to connect, feel free to reach out.

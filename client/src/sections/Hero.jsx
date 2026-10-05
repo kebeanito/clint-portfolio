@@ -97,7 +97,7 @@ const copyEmail = async () => {
         <FaGithub />
       </a>
 
-            <a href="https://www.linkedin.com/in/clint-kevin-diesta/"
+            <a href="https://www.linkedin.com/in/clint-kevin-diesta-0244b43b5/"
             title="LinkedIn"
             aria-label="LinkedIn"
             target="_blank"
