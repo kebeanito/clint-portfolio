@@ -1,5 +1,6 @@
 import {
   FaGraduationCap,
+  FaCode,
   FaBriefcase,
   FaLaptopCode,
   FaRocket,
@@ -14,6 +15,14 @@ export const experiences = [
     company: "STI College Legazpi",
     description:
       "Graduated with a Bachelor of Science in Information Technology, building a strong foundation in software development, databases, networking, and web technologies while completing academic and personal projects.",
+  },
+  {
+    year: "Feb - Apr 2026",
+    icon: <FaCode />,
+    title: "Full-Stack Developer Intern",
+    company: "People's Television Network Inc.",
+    description:
+      "Developed and enhanced the PTV Intern Monitoring System, supporting the digital management of intern records, attendance, and monitoring processes.",
   },
 
   {
