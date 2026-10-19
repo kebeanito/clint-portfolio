@@ -22,9 +22,9 @@ export const contacts = [
   },
   {
     title: "LinkedIn",
-    value: "https://www.linkedin.com/in/clint-kevin-diesta-0244b43b5/",
+    value: "https://www.linkedin.com/in/kevin-diesta/",
     icon: <FaLinkedin />,
-    href: "https://www.linkedin.com/in/clint-kevin-diesta-0244b43b5/",
+    href: "https://www.linkedin.com/in/kevin-diesta/",
   },
   {
     title: "Resume",
